@@ -41,8 +41,8 @@ await fetch (`http://localhost:5000/tasks/${id}`, {
 
 
 
-  // setTasks(tasks.filter((task)=> task.id !== id))
-  // console.log("delete",id);
+  setTasks(tasks.filter((task)=> task.id !== id))
+  console.log("delete",id);
 }
 
 //Set Reminder
